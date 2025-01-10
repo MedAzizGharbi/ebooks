@@ -2,9 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+
+body {
     font-family: "Oswald", serif;
     font-size: 20px;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
