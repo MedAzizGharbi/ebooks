@@ -28,7 +28,7 @@ function AuthProvider({ children }: { children: ReactNode }) {
         if (StoredIsLoggedIn) {
             setIsLoggedIn(true);
         }
-    }, [logout])
+    }, [])
 
     const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
     const [user, setUser] = useState<User | null>(null);
